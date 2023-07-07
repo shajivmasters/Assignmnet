@@ -32,10 +32,10 @@ This will create an EC2 Instance in AWS and configure the MYSQL server with a su
 	         * Dropping drop cache to clear the memory as it is only 2 GB free tier
 	         * Mask the native  mysql rpm from the BaseOS
 	         * Install mysql-community-server
-	         * Start the mysql service and capture the data that it is listening on alll the ports 
+	         * Start the mysql service and capture the data that it is listening on alll the Interfaces 
 	         * Change the password to a known password for root
-	         * Setup an account toweruser with full privilege 
-	         * Setup an account towerreadonly with readonly acces . I am using in the FASTAPI to query as it is PoC I hard coded . We could use the vault solution or crypt it in script as well . You can check that using the “SHOW GRANTS FOR 'towerro'@'%';” 
+	         * Setup an account "toweruser" with full privilege 
+	         * Setup an account "towerro" with readonly acces . I am using in the FASTAPI to query as it is PoC I hard coded . We could use the vault solution or crypt it in script as well . You can check that using the “SHOW GRANTS FOR 'towerro'@'%';” 
 	         * Application setup like chaning permission and starting/bootstrapping the FAST API
 
     9.	ssh -i /Users/monu/.ssh/towerkeypair centos@<publicip> reported from terraform apply
