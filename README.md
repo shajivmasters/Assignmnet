@@ -77,5 +77,4 @@ Current date and time | jlaide | Tower home project for SRE
 ## Script Info
 dbmanage.py sript options
 
-
- ![image](https://github.com/shajivmasters/Assignmnet/assets/116799274/4b7d9b2d-a035-40b7-a7e0-7400af17a747)
+![image](https://github.com/shajivmasters/Assignmnet/assets/116799274/811f7cf6-1c00-48dc-8619-8414ec0d8803)
