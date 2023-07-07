@@ -61,7 +61,7 @@ Current date and time | jlaide | Tower home project for SRE
    
 		You can do this with following ways
 			Ø Using the API or curl you can do it "curl -s  http://<PubIP>/getdata" or from the host itself you can run "curl -s http://localhost/getdata | jq "
-			Ø /home/centos/scripts/dbmanage.py query -p <password>
+			Ø /home/centos/scripts/dbmanage.py query -p <password> ( script location https://github.com/shajivmasters/Assignmnet/blob/master/scripts/dbmanage.py) 
 		
 4. Your application/script should be able to change the data in the table and output the new data to the screen 
 
@@ -75,6 +75,7 @@ Current date and time | jlaide | Tower home project for SRE
 
    5. You can see the TestResults here https://github.com/shajivmasters/Assignmnet/blob/master/Test_Results.docx
 ## Script Info
-dbmanage.py sript options
+dbmanage.py sript options (
+https://github.com/shajivmasters/Assignmnet/blob/master/scripts/dbmanage.py) 
 
 ![image](https://github.com/shajivmasters/Assignmnet/assets/116799274/811f7cf6-1c00-48dc-8619-8414ec0d8803)
