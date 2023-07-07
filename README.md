@@ -1,11 +1,11 @@
-# Project Name
+# Assignment
 This will create an EC2 Instance in AWS and configure the MYSQL server with a subinterface. It also has the script to manage the DB entry like Insert/delete and query the datas .
 
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
 * [General Infromation](#general-information)
-* [Test Cases](#test-cases)
+* [Script Info](#script-info)
 
 ### Technologies-used
 
@@ -74,7 +74,7 @@ Current date and time | jlaide | Tower home project for SRE
    		Ø You can delete the entry using /home/centos/scripts/dbmanage.py delete -p <password> -f2 <username> . Note the "Field2" is the primary key
 
    5. You can see the TestResults here https://github.com/shajivmasters/Assignmnet/blob/master/Test_Results.docx
-
+## Script Info
 dbmanage.py sript options
 
 
