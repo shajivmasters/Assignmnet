@@ -72,4 +72,7 @@ Current date and time | jlaide | Tower home project for SRE
 			Ø /home/centos/scripts/dbmanage.py query -p <password>
    		Ø You can delete the entry using /home/centos/scripts/dbmanage.py delete -p <password> -f2 <username> . Note the "Field2" is the primary key 
 
+dbmanage.py sript options
 
+
+ ![image](https://github.com/shajivmasters/Assignmnet/assets/116799274/4b7d9b2d-a035-40b7-a7e0-7400af17a747)
