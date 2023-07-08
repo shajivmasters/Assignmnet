@@ -80,17 +80,14 @@ Current date and time | jlaide | Tower home project for SRE
 
 This is a small FastAPI application with below endpoints 
 
-/ping       		==> Respond with a pong if the API is live.
+		/ping       		==> Respond with a pong if the API is live.		
+		/configure_sql          ==> This will create a Subinterface and Bind the DB to the new interface and configure a template DB. This is just a PoC.
+		/getdata                ==> Query the data in the database and return. It can return "DB connection Failed/Data/Empty Table".
+		/insert                 ==> Insert/Update the data into the DB".
+		/delete                 ==> Delete the record from the DB".
+   		
 
-/configure_sql           ==> This will create a Subinterface and Bind the DB to the new interface and configure a template DB. This is just a PoC.
-
-/getdata                 ==> Query the data in the database and return. It can return "DB connection Failed/Data/Empty Table".
-
-/insert                   ==> Insert/Update the data into the DB".
-
-/delete                   ==> Delete the record from the DB".
-
-
+![image](https://github.com/shajivmasters/Assignmnet/assets/116799274/fc7f3690-d014-420a-a847-94b35d5e1089)
 
 ## Script Info (https://github.com/shajivmasters/Assignmnet/blob/master/scripts/dbmanage.py) 
 dbmanage.py script options 
